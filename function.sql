@@ -16,4 +16,4 @@ return select u.name,p.product_name,o.order_date from order_tab as o inner join 
 where order_date between @StartDate and @EndDate;
 GO
 
-select * from OrderOnDate('2022-02-17','2022-02-22')
+/******  select * from OrderOnDate('2022-02-17','2022-02-22')  ******/
