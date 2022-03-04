@@ -14,5 +14,3 @@ from user_tab as c,address_tab as ad
 where c.user_id=ad.user_id;
 GO
 
-
-select * from userinfoview;
